@@ -14,6 +14,10 @@ La aplicación ofrece una interfaz sencilla para:
 *   Visualizar un historial de consultas recientes.
 *   Mostrar un dashboard con estadísticas de uso (opcional, si se implementó).
 
+## Estado del Proyecto
+
+Debido a circunstancias personales, no se pudieron completar todos los objetivos originalmente planteados para este proyecto. La funcionalidad implementada corresponde a la versión actual.
+
 ## Tecnologías Utilizadas
 
 *   **Frontend:** React, TypeScript
@@ -64,29 +68,6 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 5.  Finalmente, elige el año del modelo.
 6.  La aplicación mostrará el precio FIPE actual para la selección realizada.
 7.  Las consultas realizadas se guardarán y mostrarán en la sección de historial (si está implementada).
-
-## Despliegue
-
-Esta aplicación está configurada para ser desplegada en plataformas como Render, Vercel, Netlify, etc.
-
-Para construir la versión de producción:
-
-```bash
-npm run build
-# o
-# yarn build
-```
-
-Esto generará los archivos estáticos optimizados en el directorio `dist`. Puedes servir estos archivos desde cualquier servidor web o plataforma de hosting estático.
-
-**Configuración en Render:**
-
-1.  Conecta tu repositorio Git a Render.
-2.  Crea un nuevo "Static Site".
-3.  Configura los siguientes ajustes:
-    *   **Build Command:** `npm install && npm run build` (o `yarn install && yarn build`)
-    *   **Publish Directory:** `dist`
-4.  Despliega el sitio. Render gestionará automáticamente las actualizaciones cuando hagas push a la rama configurada (ej. `main` o `master`).
 
 ## Contribuciones
 
